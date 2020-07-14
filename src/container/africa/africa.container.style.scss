@@ -1,0 +1,42 @@
+.africatopbar{
+    max-width: 100%;
+    height: 30vh;
+    background-color: #363636;
+}
+.volta{
+    color: #363636;
+    font-size: 15px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    text-decoration: none;
+    background-color: #f6f2dc;
+    border-radius: 5px;
+    margin-left: 1150px;
+    display: block;
+    margin-block-start: -55px;
+}
+.nomecontinente{
+    color: #f6f2dc;
+    font-size: 30px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 60px 140px;
+}
+
+.fraseefeito{
+    color: #f6f2dc;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    display: block;
+    margin-block-start: -50px;
+    margin-left: 140px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .africatopbar{
+        height: 40vh;
+    }
+    .volta{
+        margin-left: 550px;
+        margin-block-start: 0px;
+    }
+    
+}

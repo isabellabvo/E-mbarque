@@ -1,0 +1,65 @@
+.nomesecao{
+    color: #363636;
+    font-size: 27px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 40px 140px;
+}
+
+.missao1{
+    height: 70px;
+    width: 490px;
+    color: #363636;
+    background-color: #5ce1e6;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    margin-left: 140px;
+    font-size: 24px;
+    padding-top: 21px;
+    padding-inline-start: 20px;
+    display: block;
+    box-shadow: 5px 5px 2px #aaaaaa;
+}
+
+.missao2{
+    height: 180px;
+    width: 300px;
+    color: #363636;
+    background-color: #ffeb33;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    margin-left: 680px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 70px;
+    box-shadow: 5px 5px 2px #aaaaaa;
+    overflow: hidden;
+    display: block;
+    margin-block-start: -95px;
+
+}
+.missao3{
+    height: 70px;
+    width: 490px;
+    color: #363636;
+    background-color: #ffeb33;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    margin-left: 140px;
+    font-size: 24px;
+    padding-top: 21px;
+    padding-inline-start: 20px;
+    display: block;
+    margin-block-start: -95px;
+    box-shadow: 5px 5px 2px #aaaaaa;
+}
+.missao4{
+    height: 70px;
+    width: 845px;
+    color: #363636;
+    background-color: #5ce1e6;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    margin-left: 140px;
+    font-size: 27px;
+    padding-top: 21px;
+    padding-inline-start: 20px;
+    display: block;
+    margin-block-start: 45px;
+    box-shadow: 5px 5px 2px #aaaaaa;
+}

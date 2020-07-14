@@ -1,0 +1,45 @@
+.buscaesp{
+    position: relative;
+}
+.nomesecao{
+    color: #363636;
+    font-size: 27px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 40px 140px;
+}
+.subtitulo1{
+    color: #363636;
+    font-size: 21px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 0px 140px;
+    margin-block-start: -40px;
+}
+.mundao{
+    max-width: 100%;
+    width: 750px;
+    margin-left: 140px;
+}
+.titulo{
+    color: #ffeb33;
+    font-size: 23px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%, 5100%);
+}
+.titulo2{
+    color: #ffeb33;
+    font-size: 23px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-330%, 5230%);
+}
+.barra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-255%, 2900%);
+}

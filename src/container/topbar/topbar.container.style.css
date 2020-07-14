@@ -1,0 +1,43 @@
+.topbar{
+    background-color: #363636;
+    height: 260px;
+}
+.topbar2{
+    list-style: none;
+    background: #363636;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.tabstopbar{
+    display: inline-block;
+}
+.tabstopbar2{
+    text-decoration: none;
+    color: #f6f2dc;
+    width: 300px;
+    margin-top: 55px;
+    display: block;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;}
+
+.logo{
+    width: 110px;
+    padding: 5px 0px;
+}
+.E-mbarque{
+    color: #ffeb33;
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+    white-space: nowrap;
+    padding:0px 602px;
+}
+.novosubtitulo{
+    color: #f6f2dc;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    padding:0px 480px;
+    white-space: nowrap;
+}

@@ -1,0 +1,59 @@
+.nomesecao{
+    color: #363636;
+    font-size: 27px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 40px 140px;
+}
+.embarque{
+    color: #ffeb33
+}
+.paragrafo{
+    color: #363636;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 140px;
+
+}
+.paragrafoatencao{
+    height: 50px;
+    width: 490px;
+    color: #363636;
+    background-color: #5ce1e6;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    margin-left: 140px;
+    text-align: center;
+}
+.pc{
+    width: 120px;
+    margin-right: 7cm;
+    padding-top: 1.25cm;
+    float: right;
+}
+.boardingpass{
+    width: 120px;
+    float:right;
+    margin-right:-400px;
+    margin-top: 200px;
+    overflow:hidden;
+}
+.circle1{
+    background-color: #ffeb3383;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    max-width:36em;
+    margin-right:-160px;
+    float: right;
+    overflow:hidden;
+}
+.circle2{
+    background-color: #5ce1e67e;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    max-width:36em;
+    margin-right:-480px;
+    margin-top: 155px;
+    float: right;
+    overflow:hidden;
+}

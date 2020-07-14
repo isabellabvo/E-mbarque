@@ -4,19 +4,23 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import TopbarContainer from "../container/topbar/topbar.container"
+import FooterContainer from "../container/footer/footer.container"
+import DefaultTemplate from "../templates/default/default.template"
+import AboutContainer from "../container/about/about.container"
+import MissaoContainer from "../container/missao/missao.container"
+import Continentes from "../container/continentes/continentes.container"
+import BuscaEspecifica from "../container/buscaesp/buscaesp.container"
+import Comentarios from "../container/comentarios/cometarios.container"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <DefaultTemplate>
+    <AboutContainer></AboutContainer>
+    <MissaoContainer></MissaoContainer>
+    <Continentes></Continentes>
+    <BuscaEspecifica></BuscaEspecifica>
+    <Comentarios></Comentarios>
+  </DefaultTemplate>
 )
 
 export default IndexPage

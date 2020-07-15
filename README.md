@@ -1,4 +1,4 @@
-# E-mbarque ![circle-cropped](https://user-images.githubusercontent.com/63018304/87566086-e22ab600-c698-11ea-88b4-070333d51900.png)
+# E-mbarque
 
 Realizado por Isabella Oliveira
 
@@ -21,3 +21,5 @@ Para rodar o projeto é necessário:
 5. Abra o arquivo
 6. Escreva gastby develop no terminal
 7. Abra a página localhost:8000 no navegador
+
+![circle-cropped](https://user-images.githubusercontent.com/63018304/87566086-e22ab600-c698-11ea-88b4-070333d51900.png)

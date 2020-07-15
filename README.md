@@ -1,5 +1,6 @@
 # E-mbarque
 Realizado por Isabella Oliveira
+![circle-cropped](https://user-images.githubusercontent.com/63018304/87566086-e22ab600-c698-11ea-88b4-070333d51900.png)
 
 ## Descrição do Projeto
 E-mbarque é um site que possibilita uma experiência imersiva em que o usuário, a partir da escolha do local de interesse, tem acesso a informações, dicas e notícias do local. Foi desenvolvido como uma alternativa online a viagens no contexto de pandemia do vírus COVID-19.

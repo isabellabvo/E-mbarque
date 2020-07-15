@@ -5,7 +5,7 @@ export default class Paises extends React.Component {
         let retorno = [];
         paises.forEach(paises => {
             retorno.push(
-                <PaisesBotãoComponent pais={paises.paises}>
+                <PaisesBotãoComponent pais={paises}>
                 </PaisesBotãoComponent>
             )
         });

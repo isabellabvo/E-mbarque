@@ -1,6 +1,6 @@
 .topbar{
     background-color: #363636;
-    height: 260px;
+    height: 39.57vh;
 }
 .topbar2{
     list-style: none;
@@ -17,27 +17,45 @@
 .tabstopbar2{
     text-decoration: none;
     color: #f6f2dc;
-    width: 300px;
-    margin-top: 55px;
+    width: 21.96vw;
+    margin-top: 8.37vh;
     display: block;
-    font-size: 17px;
+    font-size: 2.58vh;
     font-family: 'Open Sans', sans-serif;}
 
 .logo{
-    width: 110px;
-    padding: 5px 0px;
+    width: 8.05vw;
+    padding: 0.36vw 0vh;
 }
 .E-mbarque{
     color: #ffeb33;
-    font-size: 30px;
+    font-size: 4.56vh;
     font-family:'Open Sans', sans-serif;
     white-space: nowrap;
-    padding:0px 602px;
+    padding:0vw 91.6vh;
 }
 .novosubtitulo{
     color: #f6f2dc;
-    font-size: 23px;
+    font-size: 3.5vh;
     font-family: 'Open Sans', sans-serif;
-    padding:0px 480px;
+    padding:0vw 73vh;
     white-space: nowrap;
+}
+
+@media only screen and (max-width: 1200px) {
+    .topbar{
+        height: 45vh
+    }
+    .logo{
+        width: 30vh;
+    }
+    .E-mbarque{
+        font-size: 7vh;
+        margin-left: -90vh;
+    }
+    .novosubtitulo{
+        font-size: 5vh;
+        margin-left: -71vh;
+        margin-top: -5vh;
+    }
 }

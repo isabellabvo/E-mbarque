@@ -12,6 +12,7 @@ import MissaoContainer from "../container/missao/missao.container"
 import Continentes from "../container/continentes/continentes.container"
 import BuscaEspecifica from "../container/buscaesp/buscaesp.container"
 import Comentarios from "../container/comentarios/cometarios.container"
+import PopUpHolderContainer from "../container/popup./popup.container"
 
 const IndexPage = () => (
   <DefaultTemplate>
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <Continentes></Continentes>
     <BuscaEspecifica></BuscaEspecifica>
     <Comentarios></Comentarios>
+    <PopUpHolderContainer></PopUpHolderContainer>
   </DefaultTemplate>
 )
 

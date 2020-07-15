@@ -16,27 +16,27 @@ export default class Continentes extends React.Component {
                         África
                         </button>
                 </a>
-                <a href="#" target="_blank">
+                <a href="america" target="_blank">
                     <button class="botaocont2">
                         América
                         </button>
                 </a>
-                <a href="#" target="_blank">
+                <a href="antartida" target="_blank">
                     <button class="botaocont3">
                         Antártida
                         </button>
                 </a>
-                <a href="" target="_blank">
+                <a href="asia" target="_blank">
                     <button class="botaocont4">
                         Ásia
                     </button>
                 </a>
-                <a href="#" target="_blank">
+                <a href="europa" target="_blank">
                     <button class="botaocont5">
                         Europa
                     </button>
                 </a>
-                <a href="#" target="_blank">
+                <a href="oceania" target="_blank">
                     <button class="botaocont6">
                         Oceania
                     </button>

@@ -1,59 +1,60 @@
 .nomesecao{
     color: #363636;
-    font-size: 27px;
+    font-size: 3.75vh;
     font-family:'Open Sans SemiBold', sans-serif;
-    padding: 40px 140px;
+    padding: 9.66vw 19.47vh;
 }
 .embarque{
     color: #ffeb33
 }
 .paragrafo{
     color: #363636;
-    font-size: 16px;
+    font-size: 2.3vh;
     font-family: 'Open Sans', sans-serif;
-    padding: 0px 140px;
+    padding: 0vw 20.8vh;
 
 }
 .paragrafoatencao{
-    height: 50px;
-    width: 490px;
+    height: 7.75vh;
+    width: 33vw;
     color: #363636;
     background-color: #5ce1e6;
     font-family: 'Open Sans SemiBold', sans-serif;
-    margin-left: 140px;
+    margin-left: 10vw;
     text-align: center;
 }
 .pc{
-    width: 120px;
-    margin-right: 7cm;
+    width: 9vw;
+    margin-right: 6.5cm;
     padding-top: 1.25cm;
     float: right;
 }
 .boardingpass{
-    width: 120px;
+    width: 8.98vw;
     float:right;
-    margin-right:-400px;
-    margin-top: 200px;
+    margin-right:-29vw;
+    margin-top: 30vh;
     overflow:hidden;
 }
 .circle1{
     background-color: #ffeb3383;
-    height: 200px;
-    width: 200px;
+    height: 31vh;
+    width: 15vw;
     border-radius:50%;
     max-width:36em;
-    margin-right:-160px;
+    margin-right:-12vw;
     float: right;
     overflow:hidden;
 }
 .circle2{
     background-color: #5ce1e67e;
-    height: 200px;
-    width: 200px;
+    height: 30vh;
+    width: 15vw;
     border-radius:50%;
     max-width:36em;
-    margin-right:-480px;
-    margin-top: 155px;
+    margin-right:-35vw;
+    margin-top: 24vh;
     float: right;
     overflow:hidden;
 }
+

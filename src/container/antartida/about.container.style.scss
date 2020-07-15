@@ -1,5 +1,5 @@
 
-.imagemcentral{
+.imagemcentral1{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -8,7 +8,7 @@
     color-adjust: #5ce1e6;
     filter: invert(99%) sepia(93%) saturate(307%) hue-rotate(135deg) brightness(94%) contrast(92%);
 }
-.circuloaf1{
+.circuloan1{
     background-color: #ffeb33;
     height: 200px;
     width: 200px;
@@ -18,10 +18,10 @@
     font-family: 'Open Sans SemiBold', sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 85px 30px;
+    padding: 75px 30px;
 }
 
-.circuloaf2{
+.circuloan2{
     background-color: #ffeb33;
     height: 200px;
     width: 200px;
@@ -34,7 +34,7 @@
     padding: 85px 30px;
 }
 
-.circuloaf3{
+.circuloan3{
     background-color: #ffeb33;
     height: 200px;
     width: 200px;
@@ -46,7 +46,7 @@
     text-align: center;
     padding: 70px 20px;
 }
-.circuloaf4{
+.circuloan4{
     background-color: #ffeb33;
     height: 200px;
     width: 200px;
@@ -56,7 +56,7 @@
     font-family: 'Open Sans SemiBold', sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 50px 10px;
+    padding: 70px 10px;
 }
 .imgbarra{
     width:650px;
@@ -64,26 +64,26 @@
     margin-top: 50px;
 }
 @media only screen and (max-width: 1010px) {
-    .imagemcentral{
+    .imagemcentral1{
         margin-right: 0;
         margin-top: 380px;
         width: 30%;
     }
-    .circuloaf1{
+    .circuloan1{
         background-color: #5ce1e6;
         margin-top: -640px;
     }
-    .circuloaf2{
+    .circuloan2{
         background-color: #5ce1e6;
         margin-left: 60px;
         margin-top: 40px;
     }
-    .circuloaf3{
+    .circuloan3{
         background-color: #5ce1e6;
         margin-left: 60px;
         margin-top: 40px;
     }
-    .circuloaf4{
+    .circuloan4{
         background-color: #5ce1e6;
         margin-left: 60px;
         margin-top: 40px;

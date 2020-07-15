@@ -1,26 +1,26 @@
 import React from 'react'
 import './about.container.style.scss'
-import africa from "../../images/africa.png"
+import europa from "../../images/europa.png"
 import barrapesq from "../../images/barrapesquisa.jpg"
 export default class Conteudo extends React.Component{
     render(){
         return(
             <body className="body">
-                <div className="imagemcentral">
-                    <img src={africa} />                    
+                <div className="imagemcentral3">
+                    <img src={europa} />                    
                 </div>
-                <div className="circuloaf1">
-                    54 países
+                <div className="circuloe1">
+                    50 países
                 </div>
-                <div className="circuloaf2">
-                    30,370,000 km²
+                <div className="circuloe2">
+                    10.180.000 km²
                 </div>
-                <div className="circuloaf3">
-                    1250 - 3000 línguas nativas
+                <div className="circuloe3">
+                    287 línguas vivas
                 </div>
-                <div className="circuloaf4">
+                <div className="circuloe4">
                 áreas mais procuradas <br></br>
-                Cairo | Lagos  Kinshasa 
+                Londres | Paris  Roma 
                 </div>
                 <div className="imgbarra">
                 <img src={barrapesq} />

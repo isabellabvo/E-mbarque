@@ -1,5 +1,5 @@
 import React from 'react'
-import './topbar.container.style.css'
+import './topbar.container.style.scss'
 
 import Logo from '../../images/circle-cropped.png'
 export default class TopbarContainer extends React.Component {

@@ -1,0 +1,98 @@
+.diamond {
+    width: 33em;
+    height: 5em;
+    border: 50px solid transparent;
+    border-bottom-color: #ffeb33;
+    position: relative;
+    top: -70px;
+    margin-top: 12vh;
+    margin-left: 12vh;
+    animation-name: surgir1;
+    animation-duration: 1000ms;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    animation-timing-function: ease-out;
+}
+.diamond:after{
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 33em;
+    height: 5em;
+    border: 50px solid transparent;
+    border-top-color: #ffeb33;
+    padding: 40px 40px;
+    margin-top: 8vh;  
+}
+.fundinho{
+    background-image: url("../../images/fundorandom.png");
+    background-position: 50% 80%;
+}
+.palestrinha1{
+    color:#363636;
+    font-family: 'Open Sans SemiBold', Arial, Helvetica, sans-serif;
+    font-size: 3.5vh;
+    padding: 58px 40px;
+}
+.palestrinha2{
+    color:#363636;
+    font-family: 'Open Sans SemiBold', Arial, Helvetica, sans-serif;
+    font-size: 3.5vh;
+    padding: 58px 10px;
+}
+
+.diamond2{
+    width: 33em;
+    height: 4em;
+    border: 50px solid transparent;
+    border-bottom-color: #5ce1e6;
+    position: relative;
+    top: -110px;
+    margin-top: 17vh;
+    margin-left: 90vh;
+    animation-name: surgir2;
+    animation-duration: 1000ms;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in;
+}
+
+.diamond2:after{
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 33em;
+    height: 5em;
+    border: 50px solid transparent;
+    border-top-color: #5ce1e6;
+    padding: 40px 40px;
+    margin-top: 8vh;
+}
+.imagem{
+    margin-top: 5vh;
+}
+
+@keyframes surgir1{
+    0%{
+        opacity:0;
+        transform: translate(20%)
+    }
+    100%{
+        opacity:1;
+        transform: translate(-10%)
+    }
+}
+@keyframes surgir2{
+    0%{
+        opacity:0;
+        transform: translate(-10%)
+    }
+    100%{
+        opacity:1;
+        transform: translate(20%)
+    }
+}

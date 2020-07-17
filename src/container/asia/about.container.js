@@ -2,6 +2,7 @@ import React from 'react'
 import './about.container.scss'
 import asia from "../../images/ásia.png"
 import barrapesq from "../../images/barrapesquisa.jpg"
+import fundoasia from "../../images/buscaespAS.jpg"
 export default class Conteudo extends React.Component{
     render(){
         return(
@@ -22,9 +23,15 @@ export default class Conteudo extends React.Component{
                 áreas mais procuradas <br></br>
                 Singapura | Bangkok  Dubai 
                 </div>
-                <div className="imgbarra">
-                <img src={barrapesq} />
+                <p className="secao">Busca Específica</p>
+
+                <div className="fundoasia">
+                    <p className="convite">Qual local da Ásia você deseja conhecer?</p>
+
+                    <img src={fundoasia} />
                 </div>
+                <p className="secao">Países</p>
+
             </body>
         )
     }

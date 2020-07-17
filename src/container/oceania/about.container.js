@@ -2,12 +2,13 @@ import React from 'react'
 import './about.container.style.scss'
 import oceania from "../../images/oceania.png"
 import barrapesq from "../../images/barrapesquisa.jpg"
-export default class Conteudo extends React.Component{
-    render(){
-        return(
+import fundooceania from "../../images/buscaespOC.jpg"
+export default class Conteudo extends React.Component {
+    render() {
+        return (
             <body className="body">
                 <div className="imagemcentral4">
-                    <img src={oceania} />                    
+                    <img src={oceania} />
                 </div>
                 <div className="circuloo1">
                     14 países
@@ -19,12 +20,18 @@ export default class Conteudo extends React.Component{
                     5000 línguas nativas
                 </div>
                 <div className="circuloo4">
-                áreas mais procuradas <br></br>
-                Sydney | Melbourne  Auckland 
+                    áreas mais procuradas <br></br>
+                Sydney | Melbourne  Auckland
                 </div>
-                <div className="imgbarra">
-                <img src={barrapesq} />
+                <p className="secao">Busca Específica</p>
+
+                <div className="fundooceania">
+                    <p className="convite2">Qual local da Oceania você deseja conhecer?</p>
+
+                    <img src={fundooceania} />
                 </div>
+                <p className="secao">Países</p>
+
             </body>
         )
     }

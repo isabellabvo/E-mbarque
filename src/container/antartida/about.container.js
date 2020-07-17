@@ -2,6 +2,7 @@ import React from 'react'
 import './about.container.style.scss'
 import antartida from "../../images/antartida.png"
 import barrapesq from "../../images/barrapesquisa.jpg"
+import fundoantartida from "../../images/buscaespAN.jpg"
 export default class Conteudo extends React.Component{
     render(){
         return(
@@ -21,9 +22,12 @@ export default class Conteudo extends React.Component{
                 <div className="circuloan4">
                     20000 turistas por ano
                 </div>
-                <div className="imgbarra">
-                <img src={barrapesq} />
+                <p className="secao">Busca Específica</p>
+                <div className="fundoantartida">
+                    <p className="convite1">Qual local da Antártida você deseja conhecer?</p>
+                    <img src={fundoantartida} />
                 </div>
+
             </body>
         )
     }

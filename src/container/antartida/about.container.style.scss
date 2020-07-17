@@ -44,7 +44,7 @@
     font-family: 'Open Sans SemiBold', sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 70px 20px;
+    padding: 80px 20px;
 }
 .circuloan4{
     background-color: #ffeb33;
@@ -56,12 +56,36 @@
     font-family: 'Open Sans SemiBold', sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 70px 10px;
+    padding: 80px 10px;
 }
-.imgbarra{
-    width:650px;
-    margin-left: 70px;
-    margin-top: 50px;
+.fundoantartida{
+    opacity:1;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.convite1{
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 4.5vh;
+    text-shadow: 2.25px 2.25px #000000;
+    color: #ffeb33;
+    background-color: #363636a6;
+    padding: 8px 8px;
+    position: absolute;
+    top: 35px;
+    right: 370px;
+}
+.circuloan1:hover{
+    background-color: #5ce1e6;
+}
+.circuloan2:hover{
+    background-color: #5ce1e6;
+}
+.circuloan3:hover{
+    background-color: #5ce1e6;
+}
+.circuloan4:hover{
+    background-color: #5ce1e6;
 }
 @media only screen and (max-width: 1010px) {
     .imagemcentral1{
@@ -88,7 +112,16 @@
         margin-left: 60px;
         margin-top: 40px;
     }
-    .imgbarra{
-        width: 900px;
+    .circuloan1:hover{
+        background-color: #ffeb33;
+    }
+    .circuloan2:hover{
+        background-color: #ffeb33;
+    }
+    .circuloan3:hover{
+        background-color: #ffeb33;
+    }
+    .circuloan4:hover{
+        background-color: #ffeb33;
     }
 }

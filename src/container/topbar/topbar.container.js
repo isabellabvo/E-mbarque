@@ -8,19 +8,19 @@ export default class TopbarContainer extends React.Component {
             <div className="topbar">
                 <ul class="topbar2">
                     <p class="tabstopbar">
-                        <a href="#" class="tabstopbar2"> Home </a>
+                        <a href="index" class="tabstopbar2" target="_blank"> Home </a>
                     </p>
                     <p class="tabstopbar">
-                        <a href="#" class="tabstopbar2"> Random </a>
+                        <a href="random" target="_blank" class="tabstopbar2"> Random </a>
                     </p>
                     <div class="logo">
                         <img src={Logo} />                    
                     </div>
                     <p class="tabstopbar">
-                        <a href="#" class="tabstopbar2"> Sobre nós </a>
+                        <a href="sobrenós"  target="_blank" class="tabstopbar2"> Sobre nós </a>
                     </p>
                     <p class="tabstopbar">
-                        <a href="#" class="tabstopbar2"> Contato </a>
+                        <a href="contatos"  target="_blank" class="tabstopbar2"> Contato </a>
                     </p>
                 </ul>
                 <p class="E-mbarque">

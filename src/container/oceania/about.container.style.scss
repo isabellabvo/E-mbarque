@@ -58,10 +58,36 @@
     text-align: center;
     padding: 50px 10px;
 }
-.imgbarra{
-    width:650px;
-    margin-left: 70px;
-    margin-top: 50px;
+.convite2{
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 4.5vh;
+    text-shadow: 2.25px 2.25px #000000;
+    color: #ffeb33;
+    background-color: #363636a6;
+    padding: 8px 8px;
+    position: absolute;
+    top: 25px;
+    right: 380px;
+}
+
+.fundooceania{
+    opacity:1;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.circuloo1:hover{
+    background-color: #5ce1e6;
+}
+.circuloo2:hover{
+    background-color: #5ce1e6;
+}
+.circuloo3:hover{
+    background-color: #5ce1e6;
+}
+.circuloo4:hover{
+    background-color: #5ce1e6;
 }
 @media only screen and (max-width: 1010px) {
     .imagemcentral4{
@@ -90,5 +116,17 @@
     }
     .imgbarra{
         width: 900px;
+    }
+    .circuloo1:hover{
+        background-color: #ffeb33;
+    }
+    .circuloo2:hover{
+        background-color: #ffeb33;
+    }
+    .circuloo3:hover{
+        background-color: #ffeb33;
+    }
+    .circuloo4:hover{
+        background-color: #ffeb33;
     }
 }

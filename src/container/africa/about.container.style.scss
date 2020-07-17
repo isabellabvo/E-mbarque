@@ -8,6 +8,7 @@
     color-adjust: #5ce1e6;
     filter: invert(99%) sepia(93%) saturate(307%) hue-rotate(135deg) brightness(94%) contrast(92%);
 }
+
 .circuloaf1{
     background-color: #ffeb33;
     height: 200px;
@@ -58,10 +59,49 @@
     text-align: center;
     padding: 50px 10px;
 }
+.fundoafrica{
+    opacity:1;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.secao{
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 4.5vh;
+    margin-left: 5.5vw;
+    margin-top: 5vh;
+    color: #363636;
+}
+.convite{
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 4.5vh;
+    text-shadow: 2.25px 2.25px #000000;
+    color: #ffeb33;
+    background-color: #363636a6;
+    padding: 8px 8px;
+    position: absolute;
+    top: 15px;
+    right: 390px;
+}
 .imgbarra{
-    width:650px;
-    margin-left: 70px;
-    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-inline-start: -4em;
+    margin-bottom: 40px;
+}
+.circuloaf1:hover{
+    background-color: #5ce1e6;
+}
+.circuloaf2:hover{
+    background-color: #5ce1e6;
+}
+.circuloaf3:hover{
+    background-color: #5ce1e6;
+}
+.circuloaf4:hover{
+    background-color: #5ce1e6;
 }
 @media only screen and (max-width: 1010px) {
     .imagemcentral{
@@ -88,7 +128,16 @@
         margin-left: 60px;
         margin-top: 40px;
     }
-    .imgbarra{
-        width: 900px;
+    .circuloaf1:hover{
+        background-color: #ffeb33;
+    }
+    .circuloaf2:hover{
+        background-color: #ffeb33;
+    }
+    .circuloaf3:hover{
+        background-color: #ffeb33;
+    }
+    .circuloaf4:hover{
+        background-color: #ffeb33;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.container.style.scss'
 import america from "../../images/america.png"
-import barrapesq from "../../images/barrapesquisa.jpg"
+import fundoamerica from "../../images/buscaespAM.jpg"
 export default class Conteudo extends React.Component{
     render(){
         return(
@@ -21,9 +21,14 @@ export default class Conteudo extends React.Component{
                 <div className="circuloam4">
                     902 892 047 habitantes
                 </div>
-                <div className="imgbarra">
-                <img src={barrapesq} />
+                <p className="secao">Busca Específica</p>
+
+                <div className="fundoamerica">
+                    <p className="convite">Qual local da América você deseja conhecer?</p>
+                    <img src={fundoamerica} />
                 </div>
+                <p className="secao">Divisão</p>
+
             </body>
         )
     }

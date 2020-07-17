@@ -1,0 +1,23 @@
+.nomesecao{
+    color: #363636;
+    font-size: 27px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 40px 140px;
+}
+.subtitulo{
+    color: #363636;
+    font-size: 21px;
+    font-family:'Open Sans SemiBold', sans-serif;
+    padding: 0px 140px;
+    margin-block-start: -40px;
+}
+.salveobotao{
+    width: 100px;
+    background-color: #5ce1e6;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 13px;
+    border-radius: 8px;
+    color: #363636;
+    margin-bottom: 10px;
+    margin-left: 350px;
+}
